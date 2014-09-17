@@ -30,5 +30,5 @@
     </div>
     [{oxscript add='$("#paypalHelpIconMiniBasket").hover(function (){$("#paypalHelpBoxMiniBasket").show();},function (){$("#paypalHelpBoxMiniBasket").hide();});'}]
     [{oxscript add='$("#paypalHelpIconMiniBasket").click(function (){return false;});'}]
-    [{oxscript add='$("#paypalExpressCheckoutMiniBasketBox").appendTo($("#paypalExpressCheckoutMiniBasketBox").parent().children("p.functions"))'}]
+    [{oxscript add='$("#paypalExpressCheckoutMiniBasketBox").appendTo($("#paypalExpressCheckoutMiniBasketBox").parent().children("p.functions"));'}]
     [{/if}]
