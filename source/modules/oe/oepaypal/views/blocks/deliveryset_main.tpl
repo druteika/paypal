@@ -7,6 +7,6 @@
     <td class="edittext">
         <input class="edittext" type="checkbox" name="isPayPalDefaultMobilePayment" value='1'
         [{if $blIsPayPalDefaultMobilePayment}]checked[{/if}]>
-        [{oxinputhelp ident="OEPAYPAL_HELP_MOBILE_DEFAULT_PAYMENT"}]
+        [{oxinputhelp ident="OEPAYPAL_HELP_MOBILE_DEFAULT_PAYMENT"}][{*TODO: This ident is missing in the module and eShop*}]
     </td>
 </tr>
