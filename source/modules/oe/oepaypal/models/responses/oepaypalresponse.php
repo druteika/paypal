@@ -54,7 +54,7 @@ abstract class oePayPalResponse
     /**
      * Return value from data by given key
      *
-     * @param sting $sKey key of data value
+     * @param string $sKey key of data value
      *
      * @return string
      */
