@@ -20,11 +20,11 @@
  */
 
 // eShop base url
-$sShopUrl = '<sShopURL>';
+$sShopUrl = '<sShopURL>'; //TODO: This could be taken from eShop config.inc.php
 // eShop directory
 $sShopPath = '<sShopDir>';
 // eShop edition
-$sShopEdition = '<sShopEdition>';
+$sShopEdition = '<sShopEdition>'; //TODO: This could be taken from eShop config.inc.php
 
 // Selenium server IP address
 $sSeleniumServerIp = "127.0.0.1";
