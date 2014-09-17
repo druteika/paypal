@@ -8,7 +8,7 @@ fi
 
 options="--verbose"
 
-proj_prefix="/var/www/oxideshop_dev"
+proj_prefix="/var/www/oxideshop_dev" #TODO: Remove hardcoced path
 
 php_settings="-d memory_limit=1024M -d include_path=.:$proj_prefix/library/PHPUnit:$proj_prefix/library/"
 
@@ -19,5 +19,5 @@ if ! test "$NB_DBG" = "" ; then
     php_settings="$php_settings -d xdebug.remote_enable=0 -d xdebug.remote_port=9009 -d xdebug.idekey=netbeans-xdebug -d xdebug.remote-handler=dbgp -d xdebug.remote_host=$NB_DBG"
 fi
 
-$PHPBIN ${php_settings} ${proj_prefix}/library/PHPUnit/phpunit.php $options "$@"
+$PHPBIN ${php_settings} ${proj_prefix}/library/PHPUnit/phpunit.php $options "$@" #TODO: Document in tests/README.md that PHPUnit should be exactly there
 
