@@ -1,3 +1,4 @@
+[{*TODO: This if-else logic means, that on PayPal Basis disabled it would only "hide" method from template and it is not a complete and not good solution.*}]
 [{if $sPaymentID == "oxidpaypal" && $oViewConf->isStandardCheckoutEnabled()}]
     [{oxstyle include=$oViewConf->getModuleUrl('oepaypal','out/src/css/paypal.css')}]
     <dl>
