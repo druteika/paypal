@@ -25,6 +25,9 @@
 abstract class oePayPalOrderAction
 {
     /**
+     * TODO: Is an object type of _oOrder really oePayPalRequest?
+     * TODO: Review all action classes - many have wrong or no types in attributes and parameters
+     * 
      *
      * @var oePayPalRequest
      */
