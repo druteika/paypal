@@ -2,7 +2,7 @@
 
 TARGET="$1"
 if test -z "$TARGET" ; then
-    TARGET="AllTests"
+    TARGET="AllTests" #TODO: AllTests.php file is missing
 fi
 
 ./phpunit --bootstrap bootstrap.php $2 $3 $4 $5 $6 $7 $8 $9 ${TARGET/\//_}
